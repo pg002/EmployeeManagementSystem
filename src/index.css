@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  background-color:black;
+  color:white;
+}
+
+/* Hide scrollbar but keep scroll functionality */
+
+
+/* App.css */
+
+#tasklist::-webkit-scrollbar {
+  display: none;
+}
+#tasklist{
+  scroll-behavior: smooth;
+}
+
+
+
+
